@@ -10,7 +10,7 @@ if (process.env.LOADENV == 'true') {
 
 
 // Constants
-const PORT = process.env.PORT || 8090;
+const PORT = process.env.PORT || 8080;
 const HOST = process.env.HSOT || '0.0.0.0';
 const MESSAGE = process.env.MESSSAGE || 'HELLO WORLD';
 
