@@ -18,7 +18,7 @@ const MESSAGE = process.env.MESSSAGE || 'HELLO WORLD';
 // App
 const app = express();
 app.get('*', (req, res) => {
-  console.log(`Request at ${Data.}`);
+  console.log(`Request at ${new Date().toISOString()}`);
   res.send(MESSAGE);
 });
 
