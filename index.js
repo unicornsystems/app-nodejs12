@@ -8,12 +8,10 @@ if (process.env.LOADENV == 'true') {
   require('dotenv').config();
 }
 
-
 // Constants
 const PORT = process.env.PORT || 8080;
 const HOST = process.env.HOST || '0.0.0.0';
 const MESSAGE = process.env.MESSAGE || 'HELLO WORLD';
-
 
 // App
 const app = express();
